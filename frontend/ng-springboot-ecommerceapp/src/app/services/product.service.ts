@@ -9,6 +9,7 @@ import { Product } from '../common/product';
   providedIn: 'root',
 })
 export class ProductService {
+  // default size is 20. Add to end to modify - ?size=50
   private baseUrl = 'http://localhost:8080/api/products';
 
   constructor(private httpClient: HttpClient) {}
